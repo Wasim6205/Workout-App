@@ -20,6 +20,7 @@ function App() {
         <Route path='/signup' element={<SignupForm />}/>
         <Route path='/login' element={<LoginForm />}/>
         <Route path='/goals' element={<GoalsSection />}/>
+        <Route path='/workout' element={<WorkoutSection />}/>
         <Route path='/schedule' element={<Schedule />}/>
       </Routes>
     </>
